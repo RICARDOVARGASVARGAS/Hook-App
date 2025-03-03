@@ -1,4 +1,4 @@
-// import { createRoot } from "react-dom/client";
+import { createRoot } from "react-dom/client";
 // import { HookApp } from "./HookApp";
 // import { CounterApp } from "./components/01-useState/CounterApp";
 // import { CounterWithCustomHook } from "./components/01-useState/CounterWithCustomHook";
@@ -13,6 +13,8 @@
 // import { CallbackHook } from "./components/06-memos/CallbackHook";
 // import { Padre } from "./components/07-tarea-memo/Padre";
 
-// createRoot(document.getElementById("root")).render(<Padre />);
+import { TodoApp } from "./components/08-useReducer/TodoApp";
 
-import "./components/08-useReducer/intro-reducer";
+createRoot(document.getElementById("root")).render(<TodoApp />);
+
+// import "./components/08-useReducer/intro-reducer";
